@@ -160,8 +160,12 @@ def getPersonwiseKeypoints(valid_pairs, invalid_pairs):
                     personwiseKeypoints = np.vstack([personwiseKeypoints, row])
     return personwiseKeypoints
 
+
+# webcam
 cap = cv2.VideoCapture(0)
 
+
+# Loop
 while True:
     #Capture frame-by-frame
     __, image1 = cap.read()
@@ -222,4 +226,3 @@ while True:
 
 
     cv2.imshow("Detected Pose" , frameClone)
-    cv2.waitKey(0)
