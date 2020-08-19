@@ -8,18 +8,26 @@ The code belongs to the blog https://www.learnopencv.com/multi-person-pose-estim
 
 # Compiling cpp file
 
-Using g++
+## Using g++:
 Command to compile the cpp file in ubuntu:
+```
 g++ -o3 -std=c++11 multi-person-openpose.cpp `pkg-config --libs --cflags opencv` -lpthread -o multi-person-openpose
+```
 
-Using CMake
+## Using CMake:
+
+```
 cmake .
 make
+```
 
 # Usage
 1. Python
+```
 python multi-person-openpose.py
+```
 
 2. C++
+```
 ./multi-person-openpose
-
+```
