@@ -6,9 +6,9 @@ The code belongs to the blog https://www.learnopencv.com/multi-person-pose-estim
 3. RUN getModels.sh from command line Or Download caffe model from http://posefs1.perception.cs.cmu.edu/Users/ZheCao/pose_iter_440000.caffemodel and put it in pose/coco folder
 
 
-# Compiling cpp file
+# Compiling Cpp file
 
-## Using g++:
+## Using G++:
 Command to compile the cpp file in ubuntu:
 ```
 g++ -o3 -std=c++11 multi-person-openpose.cpp `pkg-config --libs --cflags opencv` -lpthread -o multi-person-openpose
