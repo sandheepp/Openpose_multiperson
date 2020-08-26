@@ -1,5 +1,3 @@
-The code belongs to the blog https://www.learnopencv.com/multi-person-pose-estimation-in-opencv-using-openpose
-
 # Requirements : 
 1. OpenCV > 3.4.1
 2. Matplotlib for Notebook
