@@ -1,3 +1,5 @@
+This is a part of a project which detects people from a video frame.
+
 # Requirements : 
 1. OpenCV > 3.4.1
 2. Matplotlib for Notebook
