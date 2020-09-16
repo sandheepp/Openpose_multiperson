@@ -1,3 +1,4 @@
+# About the Project
 This is a part of a project which detects people from a video frame.
 
 # Requirements : 
